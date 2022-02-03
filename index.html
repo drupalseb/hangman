@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body  onload="count(), slider()">
+<div class="wrapper">
+  <div>
+    <h3>Clock</h3>
+
+    <div id="clock">
+      another lorem ipsum.
+    </div>
+  </div>
+  <div>
+    <h3>Exercise 1</h3>
+    <div id="exercise_1">
+      <input type="text" id="field">
+      <input type="submit" value="sprawdz" onclick="check()">
+      <p class="output" id="output"> </p>
+    </div>
+  </div>
+  <div>
+    <h3> Exercise 3</h3>
+    <div id="input-form">
+      <input type="number" id="input1">
+      <input type="number" id="input2">
+      <input type="submit" value="show" id="submit" onclick="calc()">
+    </div>
+   <div id="result">
+
+   </div>
+
+  </div>
+
+</div>
+
+<div class="wrapper3">
+  <div class="box box0">
+    <h3> slider</h3>
+    <div id="countSlide">
+      <span onclick="setSlide(1)" style="cursor: pointer;">[1]</span>
+      <span onclick="setSlide(2)" style="cursor: pointer;">[2]</span>
+      <span onclick="setSlide(3)" style="cursor: pointer;">[3]</span>
+      <span onclick="setSlide(4)" style="cursor: pointer;">[4]</span>
+      <span onclick="setSlide(5)" style="cursor: pointer;">[5]</span>
+
+    </div>
+    <div id="sliderBox" onload="slider()">
+
+    </div>
+
+  </div>
+
+  <div class="box box1">Box 1
+    <div id="hang">
+      <div id="board">
+
+      </div>
+      <div id="hangman">
+         <img src="img/s0.jpg">
+      </div>
+
+    </div>
+  </div>
+  <div class="box box2">Box 2
+    <div id="letters">
+
+    </div>
+  </div>
+  <div class="box box3">Box 3
+    <p>Some text with <span> span higher </span> than paragraph </p>
+  </div>
+  <div class="box box4">Box 4
+  </div>
+  <div class="box box5">Box 5
+  </div>
+  <div class="box box6">Box 6
+</div>
+
+
+
+  <div>
+    <p> Lorem ipsum.
+    </p>
+    <p>
+      another lorem ipsum.
+    </p>
+  </div>
+  <div>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+  </div>
+  <div>
+    <p> Lorem ipsum.
+    </p>
+    <p>
+      another lorem ipsum.
+    </p>
+  </div>
+  <div>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+  </div>
+  <div>
+    <p> Lorem ipsum.
+    </p>
+    <p>
+      another lorem ipsum.
+    </p>
+  </div>
+  <div class="nested">
+    <div>
+      <p>
+        Some content in nested div, some other content in nested grid
+      </p>
+    </div>
+    <div>
+      <p>
+        Some content in nested div, some other content in nested grid
+      </p>
+    </div>
+    <div>
+      <p>
+        Some content in nested div, some other content in nested grid
+      </p>
+    </div>
+    <div>
+      <p>
+        Some content in nested div, some other content in nested grid
+      </p>
+    </div>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+  </div>
+  <div>
+    <p> Lorem ipsum.
+    </p>
+    <p>
+      another lorem ipsum.
+    </p>
+  </div>
+  <div>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+  </div>
+  <div>
+    <p> Lorem ipsum.
+    </p>
+    <p>
+      another lorem ipsum.
+    </p>
+  </div>
+  <div>
+    <p>
+      This is other lorem ipsum box.
+    </p>
+    <p>This is the same box but other paragraph with lorem ipsum tekst.</p>
+  </div>
+</div>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
